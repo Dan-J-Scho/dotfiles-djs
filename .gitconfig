@@ -9,8 +9,8 @@
 	aa = add -A
 	d = diff
 [user]
-	name = neil mclaughlin
-	email = neil.mclaughlin@digital.nhs.uk
+	name = dan schofield
+	email = daniel.schofield1@nhs.net
 [color]
 	ui = true
 [push]
@@ -20,9 +20,9 @@
 [credential]
 	helper = osxkeychain
 [github]
-	user = neilbmclaughlin
+	user = Dan-J-Scho
 [ghi]
-	token = !security find-internet-password -a neilbmclaughlin -s github.com -l 'ghi token' -w
+	token = !security find-internet-password -a Dan-J-Scho -s github.com -l 'ghi token' -w
 [url "https://github.com/"]
 	insteadOf = git@github.com:
 [url "https://"]
