@@ -10,6 +10,9 @@ fi
 # Sort out permissions
 sudo chown -R "$(whoami):admin" /usr/local
 
+# New High Sierra command
+#sudo chown -R $(whoami) $(brew --prefix)/*
+
 # Utils
 brews=(
   git
@@ -39,7 +42,7 @@ brews+=(mono go rust python ruby node elixir erlang scala)
 # DBs
 brews+=(mongodb postgresql sqlite)
 
-# Node utils 
+# Node utils
 brews+=(yarn)
 
 # Upgrade if already home brew installed else install
